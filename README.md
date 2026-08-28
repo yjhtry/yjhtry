@@ -1,7 +1,7 @@
 <span>
   <img
     align="center"
-    src="https://github-readme-stats-phi-five-s3gda256y0.vercel.app/api/top-langs/?username=yjhtry&theme=onedark&hide=html,css,lua,javascript"
+    src="https://github-readme-stats-phi-five-s3gda256y0.vercel.app/api/top-langs/?username=yjhtry&theme=onedark&hide=html,css,lua,javascript&count_private=true"
   />
 </span>
 
