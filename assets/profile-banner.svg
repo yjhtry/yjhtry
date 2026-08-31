@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">YJHTRY — from interfaces to systems</title>
+  <desc id="desc">A dark technical map connecting interface, tooling, runtime, systems, and AI nodes.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020" />
+      <stop offset="0.52" stop-color="#111936" />
+      <stop offset="1" stop-color="#17102c" />
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#41b883" />
+      <stop offset="0.38" stop-color="#3178c6" />
+      <stop offset="0.7" stop-color="#dea584" />
+      <stop offset="1" stop-color="#a277ff" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7c8cff" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#7c8cff" stop-opacity="0" />
+    </radialGradient>
+    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#background)" />
+  <circle cx="1020" cy="70" r="210" fill="url(#glow)" />
+  <circle cx="170" cy="300" r="190" fill="url(#glow)" opacity="0.7" />
+
+  <g fill="none" stroke="#8ca0c8" stroke-opacity="0.13">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200" />
+    <path d="M100 0V320M250 0V320M400 0V320M550 0V320M700 0V320M850 0V320M1000 0V320M1150 0V320" />
+  </g>
+
+  <g fill="none" stroke="url(#signal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M625 98C705 98 702 75 780 75S855 99 928 99" />
+    <path d="M625 98C705 98 700 156 780 156S850 132 928 132" />
+    <path d="M625 98C703 98 704 226 780 226S850 188 928 188" />
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="72" y="118" fill="#ffffff" font-size="68" font-weight="700" letter-spacing="6">YJHTRY</text>
+    <text x="76" y="160" fill="#a9b6d3" font-size="22" letter-spacing="1.5">FROM INTERFACES TO SYSTEMS</text>
+    <text x="76" y="222" fill="#d7def0" font-size="18">learn by building · understand by tracing · share by explaining</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" font-weight="600" text-anchor="middle">
+    <g filter="url(#soft-glow)">
+      <circle cx="625" cy="98" r="8" fill="#41b883" />
+      <circle cx="780" cy="75" r="8" fill="#3178c6" />
+      <circle cx="928" cy="99" r="8" fill="#dea584" />
+      <circle cx="780" cy="156" r="8" fill="#a277ff" />
+      <circle cx="928" cy="132" r="8" fill="#f0c674" />
+      <circle cx="780" cy="226" r="8" fill="#6ed0e0" />
+      <circle cx="928" cy="188" r="8" fill="#ef6f9b" />
+    </g>
+
+    <text x="625" y="128" fill="#b8c6e3">INTERFACE</text>
+    <text x="780" y="54" fill="#b8c6e3">TOOLING</text>
+    <text x="928" y="78" fill="#b8c6e3">RUST</text>
+    <text x="780" y="186" fill="#b8c6e3">RUNTIME</text>
+    <text x="928" y="158" fill="#b8c6e3">BEAM</text>
+    <text x="780" y="256" fill="#b8c6e3">SYSTEMS</text>
+    <text x="928" y="218" fill="#b8c6e3">AI</text>
+  </g>
+
+  <rect x="1.5" y="1.5" width="1197" height="317" rx="26.5" fill="none" stroke="url(#signal)" stroke-opacity="0.45" stroke-width="3" />
+</svg>
