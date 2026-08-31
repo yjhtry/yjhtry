@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="YJHTRY — from interfaces to systems" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile-banner-mobile.svg" />
+    <img src="./assets/profile-banner.svg" alt="YJHTRY — from interfaces to systems" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
@@ -12,13 +15,10 @@
 
 比起追逐技术名词，我更享受把一个概念变成**可运行的项目、可验证的行为和可复用的理解**。
 
-```text
-interfaces             developer tools          runtimes & systems
-Vue / React / H5  ───▶ TypeScript / CLI  ─────▶ Rust / Tokio / IO
-                                  ╲────────────▶ Elixir / OTP / Phoenix
-
-                         AI = learning partner + engineering amplifier
-```
+<p align="center">
+  <strong>Interfaces</strong> → <strong>Developer tools</strong> → <strong>Runtimes & systems</strong><br />
+  AI as a learning partner and engineering amplifier
+</p>
 
 ## 我正在构建什么
 
